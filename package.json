@@ -1,0 +1,19 @@
+{
+  "name": "aerial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/app",
+    "build:scss": "node-sass client//src/styles.scss client/public/styles.css",
+    "build:scss:watch": "node-sass client//src/styles.scss client/public/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
